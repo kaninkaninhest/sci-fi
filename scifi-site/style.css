@@ -1,0 +1,83 @@
+body{
+    background: url(images/scifi-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media (min-width:1300px){
+  nav{
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  .container-fluid{
+    max-width: 1300px;
+    margin:0 auto;
+  }
+
+  .display-1{margin-bottom: 3%;}
+}
+
+
+@media (max-width:768px) {
+  .card{
+    margin: 3% 0;
+  }
+}
+
+
+.quote{
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.accordion {
+  --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+
+
+
+.accordion-button:enabled{
+  background-color:rgb(0, 0, 0);
+}
+.accordion .collapsed{
+  background: url(images/space-bg.jpg) no-repeat;
+  background-size: cover;
+ }
+
+ .accordion-button{
+  margin-top: -8px !important;
+ }
+ .accordion-body{
+  margin-top: -8px !important;
+ }
+
+.gradient-card {
+  border: 0;
+  background: repeating-radial-gradient(
+      rgb(48,71,76, 0.9) 55%,
+      rgba(163,200,209, 0.3) 55%,
+      rgb(52,55,44, 0.3) 75%
+    );
+  color: white;
+}
+.gradient-card-2{
+  border: 0;
+  background:url(images/space-bg.jpg) no-repeat;
+  background-size: cover;
+  color: white;
+  margin-top: 0;
+}
+
+@media (min-width:1290px){
+  .alien-end{
+    display: flex;
+  }
+}
+
+.accordion-item{
+  background:none;
+  border:none;
+}
